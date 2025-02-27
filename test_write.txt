@@ -1,30 +1,20 @@
-{'url': 'https://sun1-14.userapi.com/s/v1/if2/XvnvF-gX_Bp0E4FrxscTCKkz1qNt1siBBj2x7K-Mxc-nX5F2nm43-Vn-X3OlHgUgq898KSCkOUn5RT7oHRlW_jKE.jpg?quality=96&as=32x21,48x32,72x48,108x72,160x106,240x160,360x240,480x319,540x359,640x426,720x479,1080x719,1280x852,1440x958,2000x1331&from=bu&cs=2000x1331', 'type': 'w'}{
-722652
-979453
-874142
-664951
-753550
-{'url': 'https://sun1-14.userapi.com/s/v1/if2/XvnvF-gX_Bp0E4FrxscTCKkz1qNt1siBBj2x7K-Mxc-nX5F2nm43-Vn-X3OlHgUgq898KSCkOUn5RT7oHRlW_jKE.jpg?quality=96&as=32x21,48x32,72x48,108x72,160x106,240x160,360x240,480x319,540x359,640x426,720x479,1080x719,1280x852,1440x958,2000x1331&from=bu&cs=2000x1331', 'type': 'w'}{
-722652
-979453
-874142
-664951
-753550
-{'url': 'https://sun1-14.userapi.com/s/v1/if2/XvnvF-gX_Bp0E4FrxscTCKkz1qNt1siBBj2x7K-Mxc-nX5F2nm43-Vn-X3OlHgUgq898KSCkOUn5RT7oHRlW_jKE.jpg?quality=96&as=32x21,48x32,72x48,108x72,160x106,240x160,360x240,480x319,540x359,640x426,720x479,1080x719,1280x852,1440x958,2000x1331&from=bu&cs=2000x1331', 'type': 'w'}{
-722652
-979453
-874142
-664951
-753550
-{'url': 'https://sun1-14.userapi.com/s/v1/if2/XvnvF-gX_Bp0E4FrxscTCKkz1qNt1siBBj2x7K-Mxc-nX5F2nm43-Vn-X3OlHgUgq898KSCkOUn5RT7oHRlW_jKE.jpg?quality=96&as=32x21,48x32,72x48,108x72,160x106,240x160,360x240,480x319,540x359,640x426,720x479,1080x719,1280x852,1440x958,2000x1331&from=bu&cs=2000x1331', 'type': 'w'}{
-722652
-979453
-874142
-664951
-753550
-{'url': 'https://sun1-14.userapi.com/s/v1/if2/XvnvF-gX_Bp0E4FrxscTCKkz1qNt1siBBj2x7K-Mxc-nX5F2nm43-Vn-X3OlHgUgq898KSCkOUn5RT7oHRlW_jKE.jpg?quality=96&as=32x21,48x32,72x48,108x72,160x106,240x160,360x240,480x319,540x359,640x426,720x479,1080x719,1280x852,1440x958,2000x1331&from=bu&cs=2000x1331', 'type': 'w'}{
-722652
-979453
-874142
-664951
-753550
+{'url': 'https://sun9-24.userapi.com/s/v1/if2/lPHxdm4FdHXuMZH-hCH12V5beyulFfzrYBp64QunntXn7c0DbqfQ5rtiJnLYHGFSwUHgHgjSrxHUplbxyOa7-yZ5.jpg?quality=96&as=32x46,48x69,72x104,108x156,160x231,240x346,360x519,480x692,540x778,640x922,720x1038,902x1300&from=bu&cs=902x1300', 'type': 'w'}{
+10
+5
+4
+7
+{'url': 'https://sun9-24.userapi.com/s/v1/if2/lPHxdm4FdHXuMZH-hCH12V5beyulFfzrYBp64QunntXn7c0DbqfQ5rtiJnLYHGFSwUHgHgjSrxHUplbxyOa7-yZ5.jpg?quality=96&as=32x46,48x69,72x104,108x156,160x231,240x346,360x519,480x692,540x778,640x922,720x1038,902x1300&from=bu&cs=902x1300', 'type': 'w'}{
+10
+5
+4
+7
+{'url': 'https://sun9-24.userapi.com/s/v1/if2/lPHxdm4FdHXuMZH-hCH12V5beyulFfzrYBp64QunntXn7c0DbqfQ5rtiJnLYHGFSwUHgHgjSrxHUplbxyOa7-yZ5.jpg?quality=96&as=32x46,48x69,72x104,108x156,160x231,240x346,360x519,480x692,540x778,640x922,720x1038,902x1300&from=bu&cs=902x1300', 'type': 'w'}{
+10
+5
+4
+7
+{'url': 'https://sun9-24.userapi.com/s/v1/if2/lPHxdm4FdHXuMZH-hCH12V5beyulFfzrYBp64QunntXn7c0DbqfQ5rtiJnLYHGFSwUHgHgjSrxHUplbxyOa7-yZ5.jpg?quality=96&as=32x46,48x69,72x104,108x156,160x231,240x346,360x519,480x692,540x778,640x922,720x1038,902x1300&from=bu&cs=902x1300', 'type': 'w'}{
+10
+5
+4
+7
