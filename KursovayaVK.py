@@ -12,7 +12,7 @@ import time
 congig = configparser.ConfigParser()
 congig.read("settings.ini")
 vk_tk = congig["Tokens"]["vk_token"]
-user_id = congig["Tokens"]["user_id"]
+user_id = congig["Tokens"]["id_user"]
 TOKEN_ = congig["Tokens"]["yd_token"]
 
 
@@ -47,7 +47,9 @@ class VK:
 
 
 vk_connector = VK(vk_tk)
-responce = vk_connector.get_photos('1')
+responce = vk_connector.get_photos(user_id)
+
+
 photo_info = {}
 items = responce['response']['items']
 for item in items:
@@ -57,7 +59,7 @@ for item in items:
     url, type = vk_connector.max_size_photo(sizes)
     photo_info[name] = str({'url': url, 'type': type})
     url_jpg = item['sizes'][1]["url"]
-    #print(url_jpg)
+    print(url_jpg)
 
 
 with open('test_write.txt', "w", encoding = "utf-8") as f:
