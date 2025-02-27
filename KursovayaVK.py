@@ -59,7 +59,7 @@ for item in items:
     url, type = vk_connector.max_size_photo(sizes)
     photo_info[name] = str({'url': url, 'type': type})
     url_jpg = item['sizes'][1]["url"]
-    print(url_jpg)
+    #print(url_jpg)
 
 
 with open('test_write.txt', "w", encoding = "utf-8") as f:
@@ -77,22 +77,20 @@ class YD:
         """Создаёт папку на Яндекс Диске"""
         url = f'https://cloud-api.yandex.net/v1/disk/resources/'
         headers = {'Content-Type': 'application/json',
-                   'Authorization': f'OAuth {TOKEN_}'}
+                   'Authorization': f'OAuth+TOKEN_'}
         params = {'path': folder_name, 'overwrite': 'false'}
         response = requests.put(url=url, headers=headers, params=params)
         print(response)
 
         folder_creation('Photos')
 
-    def upload_social_network(self, file_name, link):
-        url = 'https://cloud-api.yandex.net/v1/disk/resources/upload'
-        params = {'path': f'Photos/photo_1','url':'https://sun9-35.userapi.com/c9591/u00001/136592355/m_672c7bad.jpg'}
-        self.headers = {"Accept": "application/json","Authorization": f'OAuth {TOKEN_}'}
-        response = requests.post(url=url, params=params, headers=self.headers)
-        if response.status_code != 202:
-            print(f'Ошибка на сервере. Код ошибки: {response.status_code}')
-        else:
-            print(response)
+    def upload_file(self, path, url):
+        #Скачивание файла из интернета на Диск
+        url = "https://cloud-api.yandex.net/v1/disk/resources/upload?url=https://sun9-64.userapi.com/s/v1/if2/7XjpgFYihljZ1Au22hjS93aHy0T9WT2RVMEIbmWWNppTqsJVLIEqC7uuuCQrBaIK6Lv_2ciyDfyQhbaNek8TTk9i.jpg?quality=96&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,640x853,720x960,1080x1440,1280x1707,1440x1920,1536x2048&from=bu&cs=130x173&path=https://disk.yandex.ru/client/disk/Photos"
+        headers = {'Content-Type': 'application/json','Authorization': f'OAuth+TOKEN_'}
+        params = {'path': f'Photos','url': link}
+        response = requests.POST(url=url, headers=headers, params=params)
+        print(response)
 
 
 
@@ -100,16 +98,4 @@ class YD:
 
 
 
-            # def upload_file(self, path, url):
-            #     #получение URL для загрузки
-            #     url = "https://cloud-api.yandex.net/v1/disk/resources/upload?path=https://disk.yandex.ru/client/disk/Photos&overwrite=false&fields=name"
-            #     headers = {'Authorization': f'OAuth {TOKEN_}'}
-            #     params = {'path': 'file', 'overwrite': 'false', 'fields': 'name'}
-            #     response = requests.get(url=url, headers=headers, params=params)
-            #     print(response)
-            #
-            #     #Загрузка файла на полученный URL
-            #     for url in urls_list:
-            #         url = "https://uploader1d.dst.yandex.net:443/upload-target/20240424T101447.217.utd.52csloukwvq67nab1yc84a3xw-k1d.6625"
-            #         response = requests.put(url=url, headers=headers, params=params)
-            #         print(response)
+
